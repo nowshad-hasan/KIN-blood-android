@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nowshadhasan.databaselab.fragment.HistoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_below="@+id/spinner"
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.nowshadhasan.databaselab.fragment.HomeFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@android:id/list"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+</RelativeLayout>
