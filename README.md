@@ -14,7 +14,7 @@ secretary can do the whole things online.
 * Manage ex-donor list when donors left place
 
 ### Technologies
-* Local cach with Shared Preference
+* Local cache with Shared Preference
 * Netwrking with volley
 
 #### Note
